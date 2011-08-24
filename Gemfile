@@ -11,6 +11,10 @@ group :development do
   gem "mg"
 end
 
+group :test, :development do
+  gem "rspec"
+end
+
 group :optional do
   gem "rmagick"
   gem "pdfkit"
